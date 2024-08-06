@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edan Hotel</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #FFFFFF;
+        }
+    
+        header {
+            text-align: center;
+            background: linear-gradient(135deg, #5C4033, #8C7853);
+            color: #fff;
+            padding: 60px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            border-bottom: 3px solid #A67B5B;
+            border-radius: 0 0 10px 10px;
+        }
+    
+        header h1 {
+            margin: 0;
+            font-size: 3.5em;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 5px #000;
+            font-family: 'Georgia', serif;
+        }
+    
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #5C4033;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            border-top: 1px solid #8C7853;
+            border-bottom: 1px solid #8C7853;
+        }
+    
+        nav a {
+            color: #FFFFFF;
+            padding: 20px 35px;
+            text-decoration: none;
+            font-size: 1.3em;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+    
+        nav a:hover {
+            background-color: #8C7853;
+            color: #000;
+            border-radius: 5px;
+        }
+    
+        section {
+            padding: 50px;
+            margin: 30px auto;
+            max-width: 1000px;
+            background-color: #1a1a1a;
+            box-shadow: 0 6px 30px rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            border: 2px solid #8C7853;
+        }
+    
+        h2 {
+            font-size: 2.2em;
+            color: #8C7853;
+            border-bottom: 3px solid #5C4033;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 5px #000;
+            font-family: 'Georgia', serif;
+        }
+    
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    
+        li {
+            font-size: 1.2em;
+            margin: 15px 0;
+        }
+    
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            font-size: 1.2em;
+            background-color: #1a1a1a;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+            color: #FFFFFF;
+        }
+    
+        table, th, td {
+            border: 1px solid #333;
+        }
+    
+        th {
+            background-color: #5C4033;
+            color: #fff;
+            padding: 20px;
+            text-align: left;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    
+        td {
+            padding: 20px;
+            text-align: left;
+        }
+    
+        tr:nth-child(even) {
+            background-color: #262626;
+        }
+    
+        tr:hover {
+            background-color: #333;
+        }
+    
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            background: linear-gradient(135deg, #8C7853, #5C4033);
+            color: #FFFFFF;
+            border-top: 3px solid #A67B5B;
+            border-radius: 10px 10px 0 0;
+        }
+    
+        .image-section {
+    margin: 40px auto; /* Increase margin for better spacing */
+    text-align: center;
+}
+
+.image-section img {
+    max-width: 90%; /* Ensure responsive width */
+    height: auto;
+    border-radius: 20px; /* Increase border radius for a modern look */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8); /* Enhance shadow effect */
+    border: 5px solid #5C4033; /* Border color to match design theme */
+}
+.image-section figcaption {
+    font-style: italic;
+    color: #A67B5B;
+    margin-top: 15px; /* Increase space between image and caption */
+    text-align: center;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 2px #000; /* Add text shadow for better readability */
+}
+
+        
+    
+        p {
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+    
+        a {
+            color: #8C7853;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+    
+        a:hover {
+            color: #A67B5B;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to Edan Hotel</h1>
+    </header>
+
+    <div class="image-section">
+        <figure>
+            <!-- Insert your image source in the src attribute -->
+            <img src="steak.png" alt="Healthy and Indigenous Foods">
+            <figcaption>Healthy and Indigenous Foods</figcaption>
+        </figure>
+    </div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#hours">Open Hours</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Edan Hotel</h2>
+        <p>
+            Edan Hotel is known for its unique blend of traditional and modern cuisine, offering a wide range of healthy and indigenous foods. Our hotel provides a comfortable and welcoming atmosphere for all guests.
+        </p>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <p>
+            Explore our diverse menu featuring local and international dishes. Whether you're in the mood for a light salad or a hearty meal, we have something for everyone.
+        </p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Food Name</th>
+                    <th>Quantity</th>
+                    <th>Price (KSh)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nyama Choma</td>
+                    <td>1 Plate</td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>Ugali with Sukuma Wiki</td>
+                    <td>1 Serving</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>Githeri</td>
+                    <td>1 Bowl</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <td>Samosa</td>
+                    <td>3 Pieces</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>Chapati with Ndengu</td>
+                    <td>2 Pieces</td>
+                    <td>350</td>
+                </tr>
+                <tr>
+                    <td>Tilapia Fry</td>
+                    <td>1 Fish</td>
+                    <td>1000</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 30px 0;
+                font-size: 1.2em;
+                font-family: 'Arial', sans-serif;
+                background-color: #1a1a1a;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+                color: #FFFFFF;
+            }
+            thead {
+                background-color: #5C4033; /* Dark Copper */
+                color: #fff;
+            }
+            th, td {
+                padding: 20px;
+                text-align: left;
+                border-bottom: 1px solid #333;
+            }
+            th {
+                font-size: 1.2em;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+            tr:nth-child(even) {
+                background-color: #262626; /* Dark Gray */
+            }
+            tr:hover {
+                background-color: #333; /* Slightly lighter for hover effect */
+            }
+        </style>
+    </section>
+
+    <section id="hours">
+        <h2>Open Hours</h2>
+        <ul>
+            <li>Monday to Friday: 6:30 AM - 10:00 PM</li>
+            <li>Saturday: 12:00 PM - 7:00 PM</li>
+            <li>Sunday: 2:00 PM - 8:30 PM</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        
+
+       
+            <h2 style="font-size: 2.2em; color: #8C7853; border-bottom: 3px solid #5C4033; padding-bottom: 15px; margin-bottom: 30px; text-transform: uppercase; text-shadow: 1px 1px 5px #000; font-family: 'Georgia', serif;">Contact Us</h2>
+            <form action="your-server-endpoint" method="POST" style="display: flex; flex-direction: column;">
+                <label for="name" style="margin-bottom: 10px; font-size: 1.1em;">Your Name:</label>
+                <input type="text" id="name" name="name" required style="padding: 10px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #8C7853; background-color: #333; color: #fff; font-size: 1.1em;">
+        
+                <label for="email" style="margin-bottom: 10px; font-size: 1.1em;">Your Email:</label>
+                <input type="email" id="email" name="email" required style="padding: 10px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #8C7853; background-color: #333; color: #fff; font-size: 1.1em;">
+        
+                <label for="message" style="margin-bottom: 10px; font-size: 1.1em;">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required style="padding: 10px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #8C7853; background-color: #333; color: #fff; font-size: 1.1em;"></textarea>
+        
+                <button type="submit" style="padding: 15px; border-radius: 5px; border: none; background-color: #8C7853; color: #fff; font-size: 1.2em; text-transform: uppercase; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease;">
+                    Send Message
+                </button>
+            </form>
+            <section id="contact-info" style="padding: 50px; margin: 30px auto; max-width: 800px; background-color: #1a1a1a; box-shadow: 0 6px 30px rgba(0, 0, 0, 0.7); border-radius: 15px; border: 2px solid #8C7853;">
+                <h2 style="font-size: 2.2em; color: #8C7853; border-bottom: 3px solid #5C4033; padding-bottom: 15px; margin-bottom: 30px; text-transform: uppercase; text-shadow: 1px 1px 5px #000; font-family: 'Georgia', serif;">Contact Information</h2>
+                <p style="font-size: 1.2em; line-height: 1.8; color: #FFFFFF;">
+                    <strong>Address:</strong> 123 Dante Street, Kapseret<br>
+                    <strong>Phone:</strong> (123) 456-7890<br>
+                    <strong>Email:</strong> <a href="mailto:edanhotel01@gmail.com" style="color: #8C7853; text-decoration: none;">edanhotel01@gmail.com</a>
+                </p>
+        
+            
+            
+                <p style="text-align: center; margin: 30px 0;">
+                    <a href="#top" style="text-decoration: none; color: #8C7853; font-weight: bold; font-size: 1.2em;">Back to Top</a>
+                </p>
+            
+
+    <footer>
+        <p>&copy; 2024 Edan Hotel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
